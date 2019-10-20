@@ -1,0 +1,25 @@
+main: PhantomChromaticProject.LightningCore.LightningCore
+version: 0.1
+name: LightningCore
+load: STARTUP
+
+
+commands:
+  feed:
+    aliases: [fe, fastfood]
+    description: feeding player
+
+permissions:
+  lightningcore.*:
+    default: op
+    description: lightningcore full permission
+    children:
+      lightningcore.commands.feed: true
+      lightningcore.commands.feed.others: true
+  lightningcore.commands.feed:
+    default: op
+    description: self feed command permission
+  lightningcore.commands.feed.others:
+    default: op
+    description: feed other player permission
+    

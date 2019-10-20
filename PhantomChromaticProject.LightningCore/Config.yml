@@ -1,0 +1,31 @@
+LightningCore:
+  AutomaticDataSaveInterval: 30 #Time in minuts. Max 127 minuts //java byte type\\
+  JoinQuitManage:
+    JoinQuitMessage:
+      PerUser:
+        #Adminstrator:
+          #JoinMessage: '&aAdminstrator &fjoined the server'
+          #QuitMessage: '&cAdminstrator &fleft the server'
+      PerGroup:
+        #default:
+          #JoinMessage: '&a%==DISPLAYNAME==% &fjoined the server'
+          #QuitMessage: '&c%==DISPLAYNAME==% &fleft the server'
+      Global:
+        JoinMessage: '&a%==DISPLAYNAME==% &fjoined the server'
+        QuitMessage: '&c%==DISPLAYNAME==% &fleft the server'
+    TeleportToSpawnOnJoin: false
+    FirstJoinSpawnTP: true
+    FirstJoinSpawnTPWaitTime: 5
+    FirstJoinEventMessage: '&a%==DISPLAYNAME==% &7first time joined to the server'
+  SpawnLoc:
+    x: 0
+    y: 0
+    z: 0
+    World: world
+Economy:
+  defaultstatus: 20
+  autogiveonjoin: true
+  requirepayconfirm: true
+  #Maximum number 9223372036854775807 
+  maxaccountstatus: 9223372036854775807
+  minaccountstatus: 0

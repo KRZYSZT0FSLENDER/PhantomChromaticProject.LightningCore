@@ -1,0 +1,8 @@
+Errors:
+  NoForConsole: '&eLN&aCORE &8>> &cConsole &7cant use &c%==COMMAND==% &7command'
+  FeedPlayerOffline: '&eLN&aCORE &8>> &c%==PLAYER==% &7is offline'
+Commands:
+  Feed: '&eLN&aCORE &8>> &7Your food level has been &arestored&7'
+  FeedOther: '&eLN&aCORE &8>> &7You feeded &a%==PLAYER==%'
+Permissions:
+  Feed: '&eLN&aCORE &8>> &7You dont have &cpermissions &7to use this command'
